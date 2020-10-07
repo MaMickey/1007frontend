@@ -1,0 +1,15 @@
+export const OLD_PWD = 'OLD_PWD';
+export const NEW_PWD = 'NEW_PWD';
+export const RNEW_PWD = 'RNEW_PWD';
+export const NOT_MATCH = 'NOT_MATCH';
+export const CHANGE_SUCC = 'CHANGE_SUCC';
+export const CHANGE_FAIL = 'CHANGE_FAIL';
+export const SET_ISSUCC = 'SET_ISSUCC';
+export const EMPTY_ERRMSG = 'EMPTY_ERRMSG';
+export const PWD_STRONG = 'PWD_STRONG';
+export const PWD_WEAK = 'PWD_WEAK';
+export const USER_ADDRESS = 'USER_ADDRESS';
+export const DEL_USER_ADDRESS = 'DEL_USER_ADDRESS';
+export const DEL_ADDRESS_REQUEST = 'DEL_ADDRESS_REQUEST';
+export const HANDLE_SELECT_ACTION = 'HANDLE_SELECT_ACTION'; 
+export const CLEAR_MANAGE_STATE_ACTION = 'CLEAR_MANAGE_STATE_ACTION'; 

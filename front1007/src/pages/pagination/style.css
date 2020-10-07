@@ -1,0 +1,35 @@
+.pagination {
+    height: 100%;
+    display: inline-block;
+    margin:0 auto;
+    
+  }
+  .pagination-wrapper{
+    width:100%;
+    text-align: center;
+    height:40px;
+    position: absolute;
+    bottom:100px;
+    color:#5499c7;
+  }
+  .pagination-title{
+      float:left;
+      text-decoration: none;
+      padding: 8px 16px;
+  }
+  .pagination a {
+    color: black;
+    border-radius: 6px;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pagination a.active, .pagination a.active:hover {
+    background-color: #5499c7;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
